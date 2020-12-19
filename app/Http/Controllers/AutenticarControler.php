@@ -39,6 +39,7 @@ class AutenticarControler extends Controller
             $valores['imagen']=$nombre_de_archivo;
         }
         $valores['rol']="Cliente";
+        
         $valores['password']=Hash::make( $valores['password'] );
 
         $registro = new Usuario();

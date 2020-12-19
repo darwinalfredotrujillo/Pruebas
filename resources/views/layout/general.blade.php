@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="/bootstrap-4.5.3-dist/css/bootstrap.min.css">
   @yield('estilos')
   <script src="/bootstrap-4.5.3-dist/js/jquery-3.5.1.min.js"></script>
+  <script src="https://kit.fontawesome.com/6c52bb4677.js" crossorigin="anonymous"></script>
   <script src="/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
   <script src="/js/axios.js"></script>
   @yield('escripts')
